@@ -1,10 +1,13 @@
 # Face Matching Application
 
 Streamlit-based web application to match the uploaded face with a celebrity face.
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c6c6df9f-f223-4286-bc1d-15f1a711ae1b" />
+
 
 ## Project Description
 - A web application using streamlit to match the uploaded face with a celebrity face
-- The pipeline uses the VGGFace model to extract features from the uploaded image and uses cosine distance to find the most similar celebrity face with the uploaded image
+- The pipeline uses the pre trained ResNet 50 VGGFace 2 model to extract features from the uploaded image and uses cosine distance to find the most similar celebrity face with the uploaded image
+- The dataset is from Kaggle
 
 ## Files and data description
 
