@@ -25,23 +25,22 @@ This application allows users to upload an image of a face, then finds and displ
 
 ## 📂 Repository Structure
 ├── artifacts/
-│ ├── extracted_features/ # Precomputed embeddings of celebrity faces
-│ ├── pickle_format_data/ # Pickled data for faster loading
-│ └── upload/ # Temporary uploaded images during runtime
+│ ├── extracted_features/ 
+│ ├── pickle_format_data/
+│ └── upload/
+├── config/
 │
-├── config/ # Configuration files (YAML format)
+├── data/ 
 │
-├── data/ # Original dataset (images and metadata)
+├── logs/ 
 │
-├── logs/ # Application logs for debugging
+├── src/ 
+│ ├── utils/ 
+│ └── pycache/
 │
-├── src/ # Source code
-│ ├── utils/ # Utility functions (image preprocessing, file handling)
-│ └── pycache/ # Compiled Python cache (ignored by Git)
-│
-├── run.py # Main entry point for the Streamlit app
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── run.py 
+├── requirements.txt 
+└── README.md 
 
 ---
 
