@@ -96,6 +96,13 @@ Using conda:
 ```bash
 conda install --file requirements.txt
 ```
+
+### Step 4: Run the app
+Using Streamlit
+```bash
+streamlit run appp.py
+```
+
 ## 🔍 Algorithms Used
 
 - **MTCNN (Multi-task Cascaded Convolutional Networks):**  
