@@ -26,17 +26,28 @@ This application allows users to upload an image of a face, then finds and displ
 ## 📂 Repository Structure
 
 artifacts/
+
 ├── extracted_features/
+
 ├── pickle_format_data/
+
 ├── upload/
 config/
+
 data/
+
 logs/
+
 src/
+
 ├── utils/
+
 ├── pycache/
+
 run.py
+
 requirements.txt
+
 README.md
 
 ---
