@@ -20,7 +20,8 @@ This application allows users to upload an image of a face, then finds and displ
 - Fun celebrity look-alike finder
 - Educational tool for facial recognition concepts
 - Demonstration of transfer learning in computer vision
-
+  
+![Pink Badge](https://img.shields.io/badge/Status-Pink%20Vibes-pink?style=flat&logo=github&logoColor=white)
 ---
 
 ## 📂 Repository Structure
@@ -100,7 +101,7 @@ conda install --file requirements.txt
 ### Step 4: Run the app
 Using Streamlit
 ```bash
-streamlit run appp.py
+streamlit run app.py
 ```
 
 ## 🔍 Algorithms Used
@@ -130,5 +131,6 @@ When an image is uploaded, the app:
 - [VGGFace2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) – Large-scale face dataset for training deep face recognition models.
 - [Kaggle Celebrity Dataset](https://www.kaggle.com/datasets/sroy93/bollywood-celeb-localized-face-dataset-extended) – Bollywood celebrity face dataset used for matching.
 - [Streamlit](https://streamlit.io/) – Open-source app framework for Machine Learning and Data Science.
+
 
 
