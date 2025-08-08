@@ -52,3 +52,6 @@ Thumbs.db
 *.mp4
 *.jpg
 *.png
+
+# Custom directories to ignore
+data/
